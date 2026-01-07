@@ -1,0 +1,2 @@
+calling on PA2 makes my program run out of memory. what should I do?
+Are you not supposed to create term doc matrix?

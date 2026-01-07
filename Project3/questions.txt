@@ -1,0 +1,45 @@
+What is the format for the edges?
+num nodes
+from to
+1 2
+3 4
+
+
+Best way to create spam?
+each new page has one edge to target
+target has n edges to each new page. where n is some high number so other outgoing
+edges from target no longer matter
+
+
+For algorithm A what does set Pn+1 as 1-B/n mean? Why input Pn?
+How do you compute Norm?
+doing it correct take total difference between the two vectors
+
+
+
+How does query processor access the documents? does it have an instance of positional index?
+	- IT CREATES A INstance of the positional index
+
+How do we efficiently get postings list and store it?
+	-Get terms then get positions?
+	-Want to parellize
+
+
+Are we supposed to do random coin flip for page rank?
+-how does trustrank work?
+
+How are files formatted? for spam farm?
+all are ints
+
+Can edges only appear once?
+
+hijacked pages?
+
+should I store terms for each document?
+for each document store its occurences for each term in an array
+
+How do you calculate cosine simularity?
+store documetn length
+
+
+Have to create helper to keep track of strings and their integer counterparts
